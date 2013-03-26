@@ -1,0 +1,375 @@
+/* ================== */
+/* ! General Styles   */
+/* ================== */
+
+	body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: url(../img/background.jpg) repeat top left #ff4242;
+	}
+
+	p {
+	font-size: 1em;
+	line-height: 1.5em;
+	color:#FFF;
+	}
+	
+	h2 {
+	font-family:'masanascript1propia';
+	padding:25px 0 0 10px;
+	font-size:2em;
+	line-height:1.4;
+	color: #FFF;
+	}
+
+	
+	.bgwrapper {
+	background: url('../img/leafy-bg.png') bottom right no-repeat;
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+
+
+
+/* ======== */
+/* ! Logo   */
+/* ======== */
+	
+	.logo a {
+	background: url(../img/logo.png) no-repeat center center;
+    background-color: transparent;
+    border: 0;
+	display:block;
+	height:100px;
+	width:310px;
+    overflow: hidden;
+	padding: 30px 20px 10px 0;
+	text-indent:-9999px;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+	
+	}
+	
+	.logo h1 {
+		margin:15px 0 0 0;
+	}
+	
+/* =============== */
+/* !  Navigation   */
+/* =============== */
+	
+	nav {
+	float:right;
+	margin: 50px 0;	
+	}
+	
+	nav li {
+	float: left;
+	
+	}
+	
+	nav li a {
+	height:40px;
+	display:block;
+	margin:10px;
+	text-indent:-9999px;
+	background: url('../img/nav-sprite.png') no-repeat transparent;
+	
+	}
+	
+	
+	
+	.home a {width: 72px; background-position: 0 -2px;}
+	.home a:hover {background-position: 0 -85px;}
+	.home a.active {background-position: 0 -43px;}	
+	.about a {width: 78px; background-position: -72px -2px;}
+	.about a:hover {background-position: -72px -85px;}	
+	.about a.active {background-position: -72px -43px;}
+	.blog a {width: 56px; background-position: -150px -2px;}
+	.blog a:hover {background-position: -150px -85px;}	
+	.blog a.active {background-position: -150px -43px;}
+	.contact a {width: 94px; background-position: -210px -2px;}
+	.contact a:hover {background-position: -210px -85px;}	
+	.contact a.active {background-position: -210px -43px;}
+	
+/* =============== */
+/* !  Social       */
+/* =============== */
+	
+	#social {
+	margin: 50px 0 0 0;
+	}
+	
+	
+	
+	#social li {
+	float: left;
+	}
+	
+	#social li a {
+	height:63px;
+	display:block;
+	margin:10px;
+	text-indent:-9999px;
+	background: url('../img/social.png') no-repeat transparent;
+	}
+	
+	
+	
+	#social .facebook a {width: 63px; background-position: -62px -66px;}
+	#social .facebook a:hover {background-position: -63px -2px;}
+	#social .twitter a {width: 63px; background-position: -1px -66px;}
+	#social .twitter a:hover {background-position: -1px -2px;}	
+	#social .foursquare a {width: 63px; background-position: -124px -66px;}
+	#social .foursquare a:hover {background-position: -124px -2px;}	
+	#social .instagram a {width: 63px; background-position: -186px -66px;}
+	#social .instagram a:hover {background-position: -186px -2px;}	
+
+
+/* =============== */
+/* !  Social 2     */
+/* =============== */
+	
+	#social-two {
+	margin: 50px 0 0 0;
+	}
+	
+	
+	
+	#social-two li {
+	float: left;
+	}
+	
+	#social-two li a {
+	width: 45px;
+	height:45px;
+	display:block;
+	margin:5px;
+	text-indent:-9999px;
+	background: url('../img/social-2.png') no-repeat transparent;
+	}
+	
+
+	#social-two .twitter-two a {width: 45px; background-position: -1px -48px;}
+	#social-two .twitter-two a:hover {background-position: -1px -2px;}	
+	#social-two .facebook-two a {width: 45px; background-position: -46px -48px;}
+	#social-two .facebook-two a:hover {background-position: -46px -2px;}
+	#social-two .foursquare-two a {width: 45px; background-position: -90px -48px;}
+	#social-two .foursquare-two a:hover {background-position: -90px -2px;}	
+	#social-two .instagram-two a {width: 45px; background-position: -134px -48px;}
+	#social-two .instagram-two a:hover {background-position: -134px -2px;}		
+
+/* ================ */
+/* ! Main Content   */
+/* ================ */	
+
+	.mainimage img {
+	margin: 0 auto;
+	padding:0 5%;
+	}
+		
+	
+	.twitterfeed {
+		background:#FFF;
+		margin:10px auto auto;
+		height:300px;
+		
+	}
+	
+	.twitterfeed p {
+		color:#03C;
+	}
+	
+	.footer {
+		margin:0 0 10px;
+	}
+	
+	.footer p {
+		font-size:0.9em;
+		text-align:left;
+		padding: 10px;
+
+	}
+	
+	
+	
+	.homecontent {
+	margin: 25px 0 0;
+	
+	}
+	
+	.maincontent h2 {
+	font-family:'masanascript1propia';
+	padding:25px 0 0 10px;
+	}
+	
+	.maincontent p {
+	padding-left:10px;
+	}
+
+
+	.maincontent img {
+	margin-top: 25px;
+	padding: 5px;
+	background: #fff;
+
+	}
+	
+	.aboutcontent {
+		background:#FFF;
+		margin:10px auto auto;
+		height:300px;
+	}
+	
+	.aboutcontent h2 {
+		color:#333;
+	}
+
+	.secondary {
+		margin-top: 25px;
+	}
+
+	.secondary-secondary {
+		margin-top: 50px;
+	}
+
+	/*.min-page-height {
+	min-height: 1000px;
+	}*/
+
+/* =============== */
+/* ! Form Styles   */
+/* =============== */
+	
+	::-webkit-input-placeholder {
+   	color: #ff4242;
+   	font-size: 12px;
+   	font-style:italic;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	color: #ff4242;
+   	font-size: 12px;
+   	font-style:italic;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	color: #ff4242;
+   	font-size: 12px;
+   	font-style:italic; 
+	}
+
+	:-ms-input-placeholder {  
+	color: #ff4242;
+   	font-size: 12px;
+   	font-style:italic;  
+	}
+
+	.contact-form input {
+	width: 100%;
+	display: block;
+	border: none;
+	background: #d4ee5e;
+	font-size:20px;
+	font-weight: bold;
+	color: #ff4242;
+	padding: 10px;
+	}
+
+	.contact-form input:focus {
+	border: 1px solid #e1edb9;
+	outline: none;
+	}
+
+	.contact-form textarea:focus {
+	border: 1px solid #e1edb9;
+	outline: none;
+	}
+	
+	.contact-form p {
+	margin:0 0 20px;
+	}
+
+	.contact-form placeholder {
+	font-size: 12px;
+	}
+
+	.contact-form textarea {
+	width: 100%;
+	height: 150px;
+	display: block;
+	border: none;
+	background: #d4ee5e;
+	font-size:20px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #ff4242;
+	padding: 10px;
+	}
+
+	.contact-form input[type=submit] {
+	width: 40%;
+	background: #000;
+	color: #FFF;
+	border: none;
+	}
+	
+	.contact-form input[type=submit]:hover {
+	background: #d4ee5e;
+	color: #FFF;
+	border: none;
+	}
+
+	.contact-form.missing {
+	border: 1px solid #000;
+	}
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+	
+	.logo a {
+	margin: 0 auto;
+	}
+	
+	nav {
+	float:none;	
+	margin: 5px auto;
+	height: 40px;
+	background: url('../img/green-line.gif') repeat-x top left;
+	}
+	
+	nav li {
+	width: 25%;
+	text-align:center;
+	margin: 0 auto;
+	}
+	
+	h2 {
+		font-size:1.5em;
+	}
+
+	.bgwrapper {
+	background: none;
+	}
+	
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+.logo a {
+		background: url('..img/logo2x.png') no-repeat center center;
+	}
+
+}

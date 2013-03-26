@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'masanascript1propia';
+    src: url('../fonts/masanascript-1propia-webfont.eot');
+    src: url('../fonts/masanascript-1propia-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/masanascript-1propia-webfont.woff') format('woff'),
+         url('../fonts/masanascript-1propia-webfont.ttf') format('truetype'),
+         url('../fonts/masanascript-1propia-webfont.svg#masanascript1propia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
