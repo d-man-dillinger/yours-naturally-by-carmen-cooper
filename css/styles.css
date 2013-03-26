@@ -369,6 +369,8 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 2) { 
 
 .logo a {
+		height:100px;
+		width:310px;
 		background: url('../img/logo2x.png') no-repeat center center;
 	}
 
